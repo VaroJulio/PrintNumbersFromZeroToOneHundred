@@ -19,7 +19,7 @@ namespace PrintNumbersFromZeroToOneHundred
                 business.PrintResults(x, multipleOfThree, multipleOfFive);
             }
             Console.Write(ConfigurationManager.AppSettings.Get("finish_string"));
-            Console.Read();
+            Console.ReadKey();
             Environment.Exit(0);
         }
     }
